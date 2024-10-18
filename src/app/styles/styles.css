@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    margin: 10px 0;
+    color: #333; 
+}
+
+h2, h1 {
+    color: #4CAF50; 
+}
+
+p {
+    color: #333; 
+}
+
+.home-container h1, 
+.container label, 
+p.error, 
+.container p { 
+    color: #000; 
+}
+
+.dogImage {
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px; 
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin: 5px 0 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: border-color 0.3s; 
+    background-color: transparent;
+    color: #333;
+}
+
+input::placeholder {
+    color: #999; 
+    opacity: 1; 
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50; 
+    outline: none; 
+}
+
+.error {
+    color: red; 
+}
+
+.submitButton {
+    margin-top: 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.submitButton:hover {
+    background-color: #45a049; 
+}
+
+.dashboard-container {
+    padding: 20px;
+}
+
+.home-container {
+    text-align: center;
+    background-color: #e0f7fa; 
+    padding: 20px;
+}
